@@ -1,0 +1,42 @@
+DevOps List of Training Websites:
+-
+-
+Free:
+Udemy - https://www.udemy.com/course/learn-git-and-github-over-the-weekend (Git)
+Udemy - https://www.udemy.com/course/git-started-with-github (Git)
+
+
+Paid:
+Udemy: https://www.udemy.com/course/the-complete-devops-bootcamp (DevOps)
+KodeKloud: https://kodekloud.com/courses/devops-pre-requisite-course/ (DevOps)
+Linux Foundation: https://training.linuxfoundation.org/training/devops-bootcamp/ 
+TechWorld with Nana: https://www.techworld-with-nana.com/devops-bootcamp 
+SimpliLearn: https://www.simplilearn.com/devops (India Based)
+ClarusWay: https://clarusway.com/devops/ (High Cost)
+UT Dallas: https://bootcamp.utdallas.edu/programs/devops 
+Clarusway: https://clarusway.com/aws-devops/
+LevelUpInTech: https://www.levelupintech.com/
+
+
+(Disclaimer: College/University Certificate programs will not impact or help get a job. The Industry IT certification, projects and experience is what will help you. Don't get scammed!)
+
+
+Common platforms or software used in DevOps:
+Linux (Red Hat Enterprise Linux, Debian, Ubuntu)
+Vagrant
+Docker
+Kubernetes
+Jenkins
+
+Communications:
+Slack
+Teams
+Google Meet
+
+Editors:
+Visual Studio Code
+
+Local OS Editors:
+VIM (Pro Tip: There will be times when you cannot get to any form of GUI, but VI will always be available since it's embedded in the OS. So learn it.)
+Terminator (Linux/Mac)
+
