@@ -1,21 +1,37 @@
-DevOps List of Training Websites:
+DevOps List of Training Websites
+
+Do not DARE attempting to get into DevOps and you have no comfort in Linux and you lack understanding of technical and networking fundamentals. Make 100% sure you learn first! DevOps is not for absolute beginners:
+
+Free (All IT Professionals Changing Positions or Careers):
+Technical Fundamentals: https://www.youtube.com/playlist?list=PLTk5ZYSbd9Mh1mxFFu1Jx-g9VsdzQ0REW
+Networking Fundamentals: https://www.youtube.com/playlist?list=PLTk5ZYSbd9Mi_ya5tVFD8NFfU1YZOyml1
+
+Paid (Beginners to IT):
+TechWorld with Nana: https://www.techworld-with-nana.com/it-beginners-course
+Coursera & Google: https://www.coursera.org/professional-certificates/google-it-support 
 -
 -
 Free:
-Udemy - https://www.udemy.com/course/learn-git-and-github-over-the-weekend (Git)
-Udemy - https://www.udemy.com/course/git-started-with-github (Git)
+Udemy: https://www.udemy.com/course/learn-git-and-github-over-the-weekend (Git)
+Udemy: https://www.udemy.com/course/git-started-with-github (Git)
+Google: https://www.cloudskillsboost.google/journeys/76 (DevOps)
+Google: https://www.cloudskillsboost.google/journeys/20 (SRE Focused DevOps)
+
 
 
 Paid:
 Udemy: https://www.udemy.com/course/the-complete-devops-bootcamp (DevOps)
 KodeKloud: https://kodekloud.com/courses/devops-pre-requisite-course/ (DevOps)
 Linux Foundation: https://training.linuxfoundation.org/training/devops-bootcamp/ 
-TechWorld with Nana: https://www.techworld-with-nana.com/devops-bootcamp 
+TechWorld with Nana: https://www.techworld-with-nana.com/devops-bootcamp
 SimpliLearn: https://www.simplilearn.com/devops (India Based)
 ClarusWay: https://clarusway.com/devops/ (High Cost)
-UT Dallas: https://bootcamp.utdallas.edu/programs/devops 
+UT Dallas: https://bootcamp.utdallas.edu/programs/ 
 Clarusway: https://clarusway.com/aws-devops/
 LevelUpInTech: https://www.levelupintech.com/
+Amazon AWS: https://aws.amazon.com/training/restart/ (AWS Specific)
+Adrian Cantrill: https://learn.cantrill.io/courses/enrolled/1101198 (AWS Specific)
+Neal Davis: https://digitalcloud.training/cloud-mastery-bootcamp/?utm_source=megamenu&utm_medium=image&utm_campaign=bootcamps (AWS Specific)
 
 
 (Disclaimer: College/University Certificate programs will not impact or help get a job. The Industry IT certification, projects and experience is what will help you. Don't get scammed!)
@@ -27,16 +43,30 @@ Vagrant
 Docker
 Kubernetes
 Jenkins
+Terraform
+Ansible
 
-Communications:
+Monitoring:
+Prometheus
+Grafana
+
+Remote Video or Chat Communications:
 Slack
 Teams
 Google Meet
 
-Editors:
+CLI Editors:
 Visual Studio Code
 
 Local OS Editors:
 VIM (Pro Tip: There will be times when you cannot get to any form of GUI, but VI will always be available since it's embedded in the OS. So learn it.)
 Terminator (Linux/Mac)
+
+Human Interaction:
+Soft-Skills, Advanced Typing and Verbal Communication Skills, Listening Skills, Empathy
+
+
+
+Projects:
+https://github.com/acantril/learn-cantrill-io-labs/tree/master
 
