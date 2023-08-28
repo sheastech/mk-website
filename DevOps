@@ -58,6 +58,10 @@ Google Meet
 CLI Editors:
 Visual Studio Code
 
+Code Repositories:
+GitHub
+Gitlab
+
 Local OS Editors:
 VIM (Pro Tip: There will be times when you cannot get to any form of GUI, but VI will always be available since it's embedded in the OS. So learn it.)
 Terminator (Linux/Mac)
