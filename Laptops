@@ -1,1 +1,48 @@
+Linux Laptop (New or Used)
+Linux is the #1 operating system for DevOps, Cloud Engineering and of course, Linux Systems Administration. Do not buy any laptop under an Intel i3 CPU or 8GB of RAM (Memory) if you plan on working as a Cloud Engineer, DevOps Engineer or Linux Systems Engineer. You just can't learn and run tasks the way you need to on such a low spec machine below these bare minimum specifications. 
+Professional Note: If you plan on running multiple virtual machines on your Linux laptop, we recommend that you purchase a laptop with 12-16GB of RAM, Intel i5 (compatible) or higher. You can run VMware Workstation (Free Trial or PAID), Oracle VirtualBox (Free) or use Open Source VM software (e.g. QEMU).
+United States (US) / North America Based:
+Purism
+System76
+Dell Linux Laptops (Premium)
+Framework (DIY Edition)
+Malibal (Premium)
+StarLabs (Starfighter 16" Laptop)
+Laptop with Linux (Clevo Taiwan Manufacturer)
+Amazon Lenovo (Wipe and USB Install Linux) - No Manufacturer OS Support/Self-Support
+Amazon Dell (Wipe and USB Install Linux) - No Manufacturer OS Support/Self-Support
 
+Apple Mac Laptop (New or Used)
+If you are determined to buy Apple products. Do NOT buy them brand new. Refurbished Mac Laptops are professionally restored. They will most likely be ineligible for Applecare support. If something breaks. Your on your own to fix and repair. Some companies do offer warranties. Do not buy any laptop under an Intel i3 CPU or 8GB of RAM (Memory). 
+Professional Note: If you plan on running multiple virtual machines on your laptop, we recommend that you purchase a laptop with 16GB of RAM, Intel i5 (compatible) or higher. FYI. This will only help with hybrid cloud scenario's or if your learning operating system specific functions, LDAP, networking, DNS, etc.
+United States (US) / North America Based:
+Backmarket - US (Refurbished)
+Apple Refurbished (Official)
+Best Buy (Refurbished)
+Gainsaver (Refurbished)
+Mac Of All Trades (Certified Refurbished)
+Refurb.Me (Warranty Refurbished)
+Decluttr (Refurbished)
+OWC (New and Refurbished)
+United Kingdom (UK) / Europe Based:
+Hoxton Macs (Refurbished)
+MacFinder (Refurbished)
+Mac4Sale (Refurbished)
+MusicMagpie (Certified Refurbished)
+BackMarket - UK (Refurbished)
+NOTE: If you buy a Mac, try to buy an Intel series edition if you want to wipe it and install Linux for long-term usage. If you want to stay in the Apple ecosystem or avoid Apple bricking your OS or blocking updates. Buy an M1 or M2 CPU.
+
+Where can I buy a Chromebook?
+Chromebooks have come very far from where they were 5 years ago. They have so many options available from low CPU processors (which I do not recommend for learning or daily usage) to Intel i5/i7 level CPU devices. Do not buy any laptop under an Intel i3 CPU or 8GB of RAM (Memory) if you plan on working as a Cloud Engineer, DevOps Engineer or Linux Systems Engineer. You just can't learn and run tasks the way you need to on such a low spec machine below these bare minimum specifications.
+Technical Experience Thoughts: Unless you live in a country, state or territory with high speed internet. Do not purchase a Chromebook for actual work and dedicated studying. The offline functionality of a Chromebook is limited if you have bandwidth or slow internet speeds which makes the device unusable for technical work of technical hands-on labs.
+Professional Note: If you plan on running multiple virtual machines on your Linux dev environment, we recommend that you purchase a laptop with 12GB of RAM, Intel i5 (compatible) or higher. FYI. This will only help with hybrid cloud scenario's or if your learning operating system specific functions, LDAP, networking, DNS, etc. 
+Professional Tip: Chromebooks that come with Linux enabled virtual machines are Debian based VM's that have been modified. Their not truly full-fledged Debian OS without restrictions. If you need to do real work that relies on the CLI. I would recommend buying a Linux laptop.
+United States (US) / North America Based:
+Framework - US (Customizable and Premium)
+WalMart
+Google Chromebook Store
+Google Chromebook (Premium)
+Amazon Chromebook
+Best Buy Chromebook / Gaming Chromebook
+Install Chrome OS onto any old laptop (PC/Linux) or Mac:
+ChromeOS Flex
