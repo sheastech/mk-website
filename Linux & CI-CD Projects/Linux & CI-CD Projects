@@ -1,1 +1,55 @@
 "Linux & CI-CD Projects"
+
+Projects to Complete. The projects will only use AWS (Amazon Web Services) and Google Cloud Platform (GCP). I will not be adapting these labs for Microsoft's Azure, 
+Oracle Cloud or any other CSP's (Cloud Service Providers).
+
+1. 3 Tier Architecture on AWS Cloud: Scalable and secure infrastructure using Terraform on AWS
+2. 3 Tier Architecture on GCP Cloud: Scalable and secure infrastructure using Terraform on GCP
+3. GitHub Actions: Automate software deployment with CI/CD (Jenkins) using GitHub Actions
+4. GitLab: Automate software deployment with CI/CD (Jenkins) using GitLab.
+5. Monitoring: Monitor and Analyse application/infrastructure performance using Grafana, Prometheus, and ELK Stack.
+6. Containers: Use Docker to containerize a Node.JS application for easy deployment and scaling.
+7. Kubernetes: Create a Kubernetes cluster and secure it.
+
+
+Git (Free):
+Freecodecamp: https://www.youtube.com/watch?v=RGOj5yH7evk
+Udemy: https://www.udemy.com/course/learn-git-and-github-over-the-weekend/
+Udemy: https://www.udemy.com/course/git-started-with-github/
+CoderDave: https://www.youtube.com/watch?v=TLB5MY9BBa4 (GitHub Actions)
+
+
+Terraform (Free):
+
+Terraform (Paid):
+Udemy: https://www.udemy.com/course/terraform-beginner-to-advanced/
+Udemy: https://www.udemy.com/course/terraform-certified/
+Udemy: https://www.udemy.com/course/terraform-associate-practice-exam/
+
+Kubernetes (Free):
+
+
+Kubernetes (Paid):
+
+Docker (Free):
+TechWorld with Nana: https://www.youtube.com/watch?v=3c-iBn73dDE
+
+
+Docker (Paid):
+Udemy: https://www.udemy.com/course/docker-kubernetes-the-practical-guide/
+Udemy: https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide
+Udemy + KodeKloud: https://www.udemy.com/course/learn-docker/
+
+Helm (Free):
+Richard Chesterwood: https://www.youtube.com/watch?v=TLB5MY9BBa4
+
+Python (Free):
+Tech With Tim: https://www.youtube.com/watch?v=sxTmJE4k0ho
+
+Ansible (Free):
+Learn LinuxTV: https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70
+
+
+
+
+
