@@ -1,0 +1,164 @@
+Setup a Linux Web Server:
+
+Choose a Linux distribution (e.g., Ubuntu Server).
+Install and configure Apache or Nginx web server.
+Secure the server with SSH key authentication and firewall rules.
+Automate server provisioning with Terraform and configuration with Ansible.
+
+**Step 1: Choose and Prepare Your Linux Server**
+
+1.1. **Select a Linux Distribution**: Choose a Linux distribution for your web server. For this tutorial, we'll use Ubuntu Server, but you can choose another distribution if you prefer.
+
+1.2. **Provision a Virtual Machine (VM)**: Set up a virtual machine on your preferred cloud provider (e.g., AWS, Google Cloud, Azure) or use a local virtualization platform like VirtualBox or VMware. Ensure that you have SSH access to the VM.
+
+**Step 2: Install and Configure Apache**
+
+2.1. **SSH into Your Server**: Open a terminal and SSH into your Linux server using your SSH key:
+   ```bash
+   ssh -i /path/to/your/private-key.pem username@server_ip
+   ```
+
+2.2. **Update Package List**:
+   ```bash
+   sudo apt update
+   ```
+
+2.3. **Install Apache**:
+   ```bash
+   sudo apt install apache2
+   ```
+
+2.4. **Start Apache and Enable it at Boot**:
+   ```bash
+   sudo systemctl start apache2
+   sudo systemctl enable apache2
+   ```
+
+2.5. **Configure Firewall Rules**:
+   If you're using a firewall (e.g., UFW), allow HTTP traffic (port 80):
+   ```bash
+   sudo ufw allow 80/tcp
+   sudo ufw enable
+   ```
+
+**Step 3: Create a Simple Website**
+
+3.1. **Create a Sample HTML File**:
+   Create a basic HTML file for your website content. You can use a text editor like Nano or Vim:
+   ```bash
+   sudo nano /var/www/html/index.html
+   ```
+
+   Example content:
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>My Simple Website</title>
+   </head>
+   <body>
+       <h1>Hello, World!</h1>
+   </body>
+   </html>
+   ```
+
+3.2. **Save and Exit**:
+   - In Nano, press `Ctrl + O` to save, then `Enter`.
+   - Press `Ctrl + X` to exit.
+
+**Step 4: Secure SSH with Key Authentication**
+
+4.1. **Generate SSH Key Pair**:
+   If you don't already have an SSH key pair, generate one on your local machine:
+   ```bash
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   ```
+
+   Follow the prompts, and keep the default file locations.
+
+4.2. **Copy Your Public Key to the Server**:
+   Use `ssh-copy-id` to copy your public key to the server:
+   ```bash
+   ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_ip
+   ```
+
+   Replace `~/.ssh/id_rsa.pub` with the path to your public key.
+
+4.3. **Disable Password Authentication**:
+   Open the SSH configuration file for editing:
+   ```bash
+   sudo nano /etc/ssh/sshd_config
+   ```
+
+   Set `PasswordAuthentication` to `no`:
+   ```
+   PasswordAuthentication no
+   ```
+
+4.4. **Restart SSH**:
+   Restart the SSH service to apply the changes:
+   ```bash
+   sudo systemctl restart ssh
+   ```
+
+**Step 5: Automate Server Provisioning with Terraform and Configuration with Ansible**
+
+5.1. **Install Terraform and Ansible**:
+   Install Terraform and Ansible on your local machine.
+
+5.2. **Create Terraform Configuration**:
+   Create a Terraform configuration file (e.g., `main.tf`) to provision the VM. Define your AWS provider and resources (EC2 instance, security group, etc.).
+
+   Example Terraform configuration:
+   ```hcl
+   provider "aws" {
+     region = "us-west-2"
+   }
+
+   resource "aws_instance" "web_server" {
+     ami           = "ami-12345678"  # Replace with your desired AMI ID
+     instance_type = "t2.micro"
+     key_name      = "your-key-pair-name"
+     security_groups = ["your-security-group"]
+   }
+   ```
+
+5.3. **Run Terraform**:
+   In the directory with your Terraform configuration, initialize and apply the configuration:
+   ```bash
+   terraform init
+   terraform apply
+   ```
+
+5.4. **Create Ansible Playbook**:
+   Write an Ansible playbook (e.g., `web_server.yml`) to configure the Apache web server and copy the HTML file.
+
+   Example Ansible playbook:
+   ```yaml
+   ---
+   - name: Configure Apache
+     hosts: web_server
+     become: yes
+
+     tasks:
+       - name: Install Apache
+         apt:
+           name: apache2
+           state: present
+
+       - name: Copy HTML file
+         copy:
+           src: /path/to/your/local/index.html
+           dest: /var/www/html/index.html
+   ```
+
+5.5. **Run Ansible Playbook**:
+   Execute the Ansible playbook to configure the server:
+   ```bash
+   ansible-playbook -i server_ip, -u username -K web_server.yml
+   ```
+
+Replace placeholders with your specific information.
+
+Your Linux web server should now be set up, serving a simple website, secured with SSH key authentication, and provisioned and configured using Terraform and Ansible. 
+Visitors can access your website via the server's public IP address or domain name.
