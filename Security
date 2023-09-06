@@ -66,3 +66,15 @@ Cybersecurity focused Distribution of Linux
 23. BlackArch Linux: https://blackarch.org/
 Linux Distribution for penetration testers and cybersecurity researchers
 Arch Linux is *not* for beginners to Linux
+
+24. TOR: https://www.torproject.org/
+Private Browsing and Dark Web Access (NOTE: This access should be used wisely and not for any criminal activities at all...ever.)
+
+25. Tails: https://tails.net/index.en.html
+Linux distribution that is portable and runs all traffic through TOR.
+
+26. Whonix: https://www.whonix.org/
+Privacy focused open source app that runs on top of your OS. 
+
+Disclaimer: All information, sites and Linux distributions identified above are only provided for newbie, mid-level or professional cybersecurity professionals. All cyber research or work should be
+performed in an ethical manner and all training, tutorials, hands-on labs, wargames or GTF (grab the flag) exercises should be done in an ethical and responsible manner.
